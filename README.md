@@ -2,6 +2,7 @@
 
 This GitHub Action is a utility that automatically populates code references in LaunchDarkly. This is useful for finding references to feature flags in your code, both for reference and for code cleanup.
 
+
 ## Configuration
 
 Once you've [created a LaunchDarkly access token](https://docs.launchdarkly.com/home/code/github-actions#prerequisites), store the newly created access token as a repository secret titled `LD_ACCESS_TOKEN`. Under Settings > Secrets in your GitHub repo, you'll see a link to "Add a new secret".  Click that and paste in your access token and click "Save secret".
